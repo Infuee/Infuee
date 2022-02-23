@@ -1,0 +1,1845 @@
+// Variables
+// -- colors --
+$white: #fff;
+$black: #000;
+$site-blue: #008ed7;
+$footer-purple: #272d4e;
+// -- Font-Weight --
+$extra-bold: 800;
+$bold: 700;
+$semibold: 600;
+$medium: 500;
+$light: 400;
+$extra-light: 300;
+// ---//////---
+@media only screen and (max-width: 1500px) {
+    // -----  Header Start -----
+    .header-main {
+        .header-wrapper {
+            nav.navbar {
+                ul.navbar-nav {
+                    li {
+                        padding: 10px 15px;
+                        a {}
+                    }
+                }
+            }
+        }
+    }
+    // -----  Header End -----
+    // -----  Home banner start -----
+    .home-banner_outer {
+        .home-banner_inner {
+            .banner-content {
+                h1 {
+                    font-size: 40px;
+                    padding-right: 0px;
+                }
+                .banner-get_btn {
+                    a.get_btn {}
+                }
+            }
+        }
+    }
+    // -----  Home banner End -----
+    // -----  Top Influencers section start -----
+    .top-influencers-wrapper {
+        position: relative;
+        margin-top: -425px;
+        padding-bottom: 130px;
+        .top-influencers_outer {
+            .top-influencers_inner {
+                .left-arrow,
+                .right-arrow {
+                    width: 40px;
+                    height: 40px;
+                }
+                i {
+                    font-size: 20px;
+                }
+                .left-arrow {
+                    left: -45px;
+                }
+                .right-arrow {
+                    right: -45px;
+                }
+            }
+        }
+    }
+    // -----  Top Influencers section End -----
+    // ============================
+    // --  Active Jobs  Page Start--
+    // ============================
+    .agencies-main {
+        .activejob-outer {
+            .activejob-inner {
+                .activejob-box {
+                    .agencies-detail {
+                        .status-details {
+                            width: 80%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Active Jobs Page End--
+    // ============================
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .profile-banner {
+        background-position: 100% 0px;
+        height: 300px;
+    }
+    .music-main {
+        .category-inner {
+            .prev-arrow {
+                left: -50px;
+            }
+            .next-arrow {
+                right: -50px;
+            }
+        }
+    }
+    .video-main {
+        .category-inner {
+            .prev-arrow1 {
+                left: -50px;
+            }
+            .next-arrow1 {
+                right: -50px;
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page End--
+    // ============================
+}
+
+@media screen and (max-width: 1366px) {
+    // -----  Home banner start -----
+    .home-banner_outer {
+        .home-banner_inner {
+            .banner-content {
+                h1 {
+                    font-size: 38px;
+                }
+            }
+        }
+    }
+    // -----  Home banner End -----
+    // -----  Testimonial section Start -----
+    .testimonial-wrapper {
+        .testimonial-inner {
+            .prev-arrow,
+            .next-arrow {
+                width: 40px;
+                height: 40px;
+            }
+            button i {
+                font-size: 20px;
+            }
+            .prev-arrow {
+                left: -45px;
+            }
+            .next-arrow {
+                right: -45px;
+            }
+        }
+    }
+    // -----   Testimonial section End  -----
+    // -----  Footer start -----
+    .footer-main {
+        .footer-outer {
+            .copy-right {
+                p {}
+                .footer-social_icons {
+                    a {}
+                }
+            }
+        }
+        .hire-main {
+            .hire-outer {
+                .hire-inner {
+                    .hire-text {
+                        p {
+                            width: 90%;
+                        }
+                    }
+                    .hire-profile {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Footer End -----
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .music-main {
+        .category-inner {
+            .prev-arrow,
+            .next-arrow {
+                width: 45px;
+                height: 45px;
+            }
+            .prev-arrow {
+                left: -40px;
+            }
+            .next-arrow {
+                right: -40px;
+            }
+        }
+    }
+    .video-main {
+        .category-inner {
+            .prev-arrow1,
+            .next-arrow1 {
+                width: 45px;
+                height: 45px;
+            }
+            .prev-arrow1 {
+                left: -40px;
+            }
+            .next-arrow1 {
+                right: -40px;
+            }
+        }
+    }
+    .other-influencers {
+        .other-influencers_inner {
+            .inner-box_pf {
+                padding: 20px;
+                .profile-img_box {
+                    h4 {
+                        font-size: 20px;
+                    }
+                    .center-img {
+                        margin-bottom: 30px;
+                        img {
+                            width: 160px;
+                            height: 160px;
+                        }
+                    }
+                    .price-span {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+            .social-bottom {
+                padding: 15px 5px;
+                .social-profile_pf {
+                    width: 20%;
+                    &::after {
+                        width: 2px;
+                        height: 20px;
+                    }
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page End--
+    // ============================
+}
+
+@media only screen and (max-width: 1200px) {
+    // -----  Header Start -----
+    .header-main {
+        .header-wrapper {
+            nav.navbar {
+                ul.navbar-nav {
+                    li {
+                        padding: 10px 10px;
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .nav-right_btn {
+                    .signup-btn,
+                    .login-btn {
+                        width: 90px;
+                        height: 35px;
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Header End -----
+    // ----------
+    // ----- Common Header Start -----
+    // ----------
+    .header-main.common-header {
+        position: sticky;
+        top: 0%;
+        z-index: 11;
+        background-image: url(../images/home-banner.jpg);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.25);
+        .header-wrapper {
+            nav.navbar {
+                ul.navbar-nav {
+                    li {
+                        padding: 10px 12px;
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .nav-right_btn {
+                    padding: 10px 15px;
+                }
+            }
+            .navbar.solid {
+                ul.navbar-nav {
+                    li {
+                        a {
+                            color: #fff !important;
+                            &.active {
+                                color: #000 !important;
+                                border-bottom: 1px solid #000 !important;
+                            }
+                            &:hover {
+                                color: #000 !important;
+                                border-bottom: 1px solid #000 !important;
+                            }
+                        }
+                    }
+                }
+                .nav-right_btn {
+                    a.notification-btn {
+                        background: $site-blue !important;
+                        border: 2px solid #fff !important;
+                        color: $site-blue !important;
+                    }
+                    a.user-btn {
+                        background-color: #fff !important;
+                        border: 2px solid #fff !important;
+                    }
+                }
+            }
+        }
+    }
+    // ----------
+    // ----- Common Header End -----
+    // ----------
+    // -----  Home banner start -----
+    .home-banner_outer {
+        .home-banner_inner {
+            .banner-content {
+                h1 {
+                    line-height: 45px;
+                    font-size: 34px;
+                }
+                p {
+                    margin: 15px 0;
+                    font-size: 16px;
+                    line-height: 25px;
+                }
+                .banner-get_btn {
+                    a.get_btn {
+                        width: 180px;
+                        height: 45px;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Home banner End -----
+    // -----  Category section Start -----
+    .category-wrapper {
+        .category-outer {
+            .category-content {
+                padding: 100px 0;
+                .about-question {
+                    h3 {
+                        font-size: 30px;
+                        line-height: 40px;
+                        padding-bottom: 15px;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Category section End -----
+    // -----  Top Influencers section start -----
+    .top-influencers-wrapper {
+        .top-influencers_outer {
+            .top-influencers_inner {
+                .slide-item {
+                    padding: 10px;
+                    a {
+                        img {
+                            height: 100px;
+                        }
+                    }
+                    a {
+                        font-size: 22px;
+                    }
+                }
+                .left-arrow,
+                .right-arrow {
+                    width: 50px;
+                    height: 50px;
+                    top: unset;
+                }
+                i {
+                    font-size: 25px;
+                }
+                .left-arrow {
+                    left: 42%;
+                }
+                .right-arrow {
+                    right: 42%;
+                }
+            }
+        }
+    }
+    // -----  Top Influencers section End -----
+    // -----  Testimonial section Start -----
+    .testimonial-wrapper {
+        padding: 80px 0 200px;
+        .testimonial-inner {
+            .prev-arrow,
+            .next-arrow {
+                width: 50px;
+                height: 50px;
+                top: unset;
+            }
+            button i {
+                font-size: 25px;
+            }
+            .prev-arrow {
+                left: 5%;
+            }
+            .next-arrow {
+                right: unset;
+                left: 12%;
+            }
+        }
+    }
+    // -----   Testimonial section End  -----
+    // -----  Footer start -----
+    .footer-main {
+        .footer-outer {
+            .foot-inner {
+                padding: 80px 0;
+                .foot-nav {
+                    ul.footer-ul {
+                        li {
+                            padding: 10px 15px;
+                            a {}
+                        }
+                    }
+                }
+            }
+        }
+        .hire-main {
+            .hire-outer {
+                .hire-inner {
+                    .hire-text {
+                        p {
+                            width: 100%;
+                            font-size: 32px;
+                        }
+                    }
+                    .hire-profile {
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Footer End -----
+    // ///////////////
+    // ============================
+    // --  Category Page start--
+    // ============================
+    .lastsection-space_b {
+        padding-bottom: 200px;
+    }
+    .category-inner {
+        .category-box {
+            margin: 12px 0;
+            .category-icon_box {
+                height: 170px;
+                p {
+                    margin: 20px 0 0;
+                }
+            }
+            .category-link {
+                padding: 15px 10px;
+                a {
+                    font-size: 14px;
+                    &:hover i {
+                        margin-left: 6px;
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Category Page End--
+    // ============================
+    // ============================
+    // --  Campaign Page start--
+    // ============================
+    .campaign-outer {
+        .campaign-inner {
+            .company-box {
+                padding: 10px;
+                margin: 12px 0;
+                .company-logo {
+                    img {
+                        border-radius: 4px;
+                        width: 90px;
+                        height: 90px;
+                        object-fit: cover;
+                    }
+                }
+                .company-detail {
+                    margin-left: 10px;
+                    h3 {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                    p.status {
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Campaign Page End--
+    // ============================
+    // ============================
+    // --  Active Jobs  Page Start--
+    // ============================
+    .agencies-main {
+        .activejob-outer {
+            .activejob-inner {
+                .activejob-box {
+                    .agencies-detail {
+                        .status-details {
+                            width: 100%;
+                            .min-span {
+                                margin-right: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Active Jobs Page End--
+    // ============================
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .profile-border_hr {
+        margin: 80px 0;
+    }
+    .profile-banner {
+        height: 300px;
+    }
+    .profile-outer {
+        .profile-inner {
+            padding-top: 30px;
+            padding-bottom: 80px;
+            .profile-detail {
+                .profile-img {
+                    img {
+                        margin-top: -150px;
+                        width: 230px;
+                        height: 230px;
+                    }
+                }
+                .profile-content {
+                    margin-left: 10px;
+                    .profile-inline {
+                        margin-bottom: 15px;
+                        .flag-img {
+                            margin-right: 10px;
+                        }
+                        h4 {
+                            font-size: 20px;
+                        }
+                        .review-star {
+                            margin-left: 30px;
+                            font-weight: 500;
+                            font-size: 13px;
+                        }
+                    }
+                    p {
+                        margin-left: 45px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .social-account_outer {
+                justify-content: start;
+                .social-view_account {
+                    width: 20%;
+                    margin-top: 40px;
+                    .social-media_profile {
+                        img {
+                            padding: 7px;
+                            width: 55px;
+                            height: 55px;
+                        }
+                    }
+                    .social-profile_content {
+                        margin-left: 8px;
+                        p {
+                            font-size: 12px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .other-influencers {
+        .other-influencers_inner {
+            .inner-box_pf {
+                padding: 20px;
+                .profile-img_box {
+                    h4 {
+                        font-size: 20px;
+                    }
+                    .center-img {
+                        margin-bottom: 20px;
+                        img {
+                            width: 135px;
+                            height: 135px;
+                        }
+                    }
+                    .price-span {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+            .social-bottom {
+                padding: 15px 5px;
+                .social-profile_pf {
+                    width: 20%;
+                    &::after {
+                        width: 2px;
+                        height: 20px;
+                    }
+                    img {
+                        width: 18px;
+                        height: 18px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .music-main {
+        .category-inner {
+            .prev-arrow,
+            .next-arrow {
+                width: 40px;
+                height: 40px;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow {
+                left: -35px;
+            }
+            .next-arrow {
+                right: -35px;
+            }
+        }
+    }
+    .video-main {
+        .category-inner {
+            .prev-arrow1,
+            .next-arrow1 {
+                width: 40px;
+                height: 40px;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow1 {
+                left: -35px;
+            }
+            .next-arrow1 {
+                right: -35px;
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page End--
+    // ============================
+}
+
+@media only screen and (max-width: 991px) {
+    .lastsection-space_b {
+        padding-bottom: 150px !important;
+    }
+    .section-space {
+        padding: 60px 0;
+    }
+    .common-heading h2 {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 40px;
+        padding-bottom: 15px;
+        &::after {
+            width: 200px;
+        }
+    }
+    // -----  Header Start -----
+    .header-main {
+        width: 100%;
+        position: absolute;
+        .header-wrapper {
+            .navbar-collapse {
+                background-color: $site-blue;
+                padding: 0 15px 15px;
+                box-shadow: 0px 0px 15px rgba(66, 66, 66, 0.25);
+                margin-top: 10px;
+            }
+            nav.navbar {
+                ul.navbar-nav {
+                    li {
+                        padding: 10px 10px;
+                        a {
+                            font-size: 13px;
+                            color: #fff;
+                        }
+                    }
+                }
+                .nav-right_btn {
+                    .signup-btn,
+                    .login-btn {
+                        width: 90px;
+                        height: 35px;
+                        font-size: 13px;
+                    }
+                    .signup-btn {
+                        color: $site-blue;
+                    }
+                    .login-btn {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .navbar.solid {
+        background-color: transparent;
+        transition: background-color 0.6s ease 0s;
+        box-shadow: none;
+        ul.navbar-nav {
+            li {
+                a {
+                    color: #fff !important;
+                    &.active {
+                        color: #000 !important;
+                        border-bottom: 0px !important;
+                    }
+                    &:hover {
+                        color: #fff !important;
+                        border-bottom: 0px !important;
+                    }
+                }
+            }
+        }
+        .nav-right_btn {
+            .signup-btn {
+                background-color: #fff !important;
+                border: 2px solid #fff !important;
+                color: $site-blue !important;
+                &:hover {
+                    background-color: transparent !important;
+                    color: $site-blue !important;
+                }
+            }
+            .login-btn {
+                background-color: transparent !important;
+                border: 2px solid #fff !important;
+                color: #fff !important;
+                &:hover {
+                    background-color: #fff !important;
+                    color: $site-blue !important;
+                }
+            }
+        }
+    }
+    // -----  Header End -----
+    // ----------
+    // ----- Common Header Start -----
+    // ----------
+    .header-main.common-header {
+        position: sticky;
+        top: 0%;
+        z-index: 11;
+        background-image: url(../images/home-banner.jpg);
+        background-position: center;
+        background-size: cover;
+        box-shadow: 0px 2px 15px rgba(255, 255, 255, 0.25);
+        .header-wrapper {
+            nav.navbar {
+                ul.navbar-nav {
+                    li {
+                        padding: 10px 12px;
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+                .nav-right_btn {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+    // ----------
+    // ----- Common Header End -----
+    // ----------
+    // -----  Home banner start -----
+    .home-banner_outer {
+        margin-top: 0px;
+        .home-banner_inner {
+            padding: 130px 0 0;
+            .banner-content {
+                h1 {
+                    line-height: 38px;
+                    font-size: 25px;
+                }
+                p {
+                    margin: 15px 0;
+                    font-size: 14px;
+                    line-height: inherit;
+                }
+                .banner-get_btn {
+                    a.get_btn {
+                        width: 160px;
+                        height: 40px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Home banner End -----
+    // -----  Category section Start -----
+    .category-wrapper {
+        .category-outer {
+            .social-influencer-row {
+                .social-influencer-col {
+                    .social-inner {
+                        .social-img {
+                            width: 105px;
+                            height: 105px;
+                        }
+                        p {
+                            font-size: 12px;
+                            &.count-number {}
+                        }
+                    }
+                }
+            }
+            .category-content {
+                padding: 60px 0 0;
+                .about-question {
+                    h3 {
+                        font-size: 20px;
+                        line-height: 33px;
+                        padding-bottom: 10px;
+                    }
+                    p {
+                        font-size: 13px;
+                        line-height: 22px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Category section End -----
+    // -----  Top Influencers section start -----
+    .top-influencers-wrapper {
+        margin-top: 0px;
+        padding-bottom: 100px;
+        .top-influencers_outer {
+            .top-influencers_inner {
+                padding-bottom: 20px;
+                .slide-item {
+                    padding: 10px;
+                    a {
+                        img {
+                            height: 100px;
+                        }
+                    }
+                    a {
+                        font-size: 22px;
+                    }
+                }
+                .left-arrow,
+                .right-arrow {
+                    top: 100%;
+                }
+            }
+        }
+        &::after {
+            top: 0%;
+        }
+    }
+    // -----  Top Influencers section End -----
+    // -----  Testimonial section Start -----
+    .testimonial-wrapper {
+        padding: 80px 0 200px;
+        .common-heading {
+            text-align: center;
+        }
+        .testimonial-inner {
+            .flip-col {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+            .slick-slide {
+                padding: 0px 0;
+            }
+            .testimonial-content {
+                padding: 10px;
+            }
+            .testimonial-img-div {
+                margin-bottom: 20px;
+                .testimonial-back {
+                    display: none;
+                }
+            }
+            .prev-arrow,
+            .next-arrow {
+                top: 100%;
+                transform: translate(0%, 0%);
+            }
+            .next-arrow {
+                left: 15%;
+            }
+        }
+    }
+    // -----   Testimonial section End  -----
+    // -----  Footer start -----
+    .footer-main {
+        .footer-outer {
+            .foot-inner {
+                padding: 90px 0 0;
+                display: block;
+                .foot-logo {
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                .foot-nav {
+                    ul.footer-ul {
+                        padding: 0;
+                        li {
+                            a {
+                                font-size: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .hire-main {
+            .hire-outer {
+                .hire-inner {
+                    .hire-text {
+                        p {
+                            font-size: 22px;
+                        }
+                    }
+                    .hire-btn {
+                        a {
+                            width: auto;
+                        }
+                    }
+                    .hire-profile {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Footer End -----
+    // ============================
+    // --  Campaign Page start--
+    // ============================
+    .campaign-outer {
+        .campaign-head_outer {}
+        .campaign-inner {
+            .company-box {
+                padding: 10px;
+                margin: 12px 0;
+                .company-logo {
+                    img {
+                        border-radius: 4px;
+                        width: 80px;
+                        height: 80px;
+                        object-fit: cover;
+                    }
+                }
+                .company-detail {
+                    margin-left: 10px;
+                    h3 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                    p.status {
+                        margin-bottom: 3px;
+                    }
+                    a.view-more_link {
+                        i {}
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Campaign Page End--
+    // ============================
+    // ============================
+    // --  Agencies Page start--
+    // ============================
+    .agencies-outer {
+        .agencies-inner {
+            .agencies-box {
+                .agencies-detail {
+                    margin: 0px 0px 0px 10px;
+                    h3 {
+                        font-size: 18px;
+                        margin-bottom: 8px;
+                    }
+                    p {
+                        font-size: 14px;
+                        line-height: 25px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .price-view {
+                    p {
+                        font-size: 30px;
+                        margin: 25px auto;
+                    }
+                    .view-price_btn {
+                        a {
+                            width: 150px;
+                            height: 50px;
+                            margin: 20px auto 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .profile-banner {
+        height: 230px;
+    }
+    .profile-outer {
+        .profile-inner {
+            padding-top: 30px;
+            padding-bottom: 80px;
+            .profile-detail {
+                .profile-img {
+                    img {
+                        margin-top: -150px;
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+                .profile-content {
+                    margin-left: 10px;
+                    .profile-inline {
+                        margin-bottom: 15px;
+                        .flag-img {
+                            margin-right: 10px;
+                        }
+                        h4 {
+                            font-size: 20px;
+                        }
+                        .review-star {
+                            margin-left: 30px;
+                            font-weight: 500;
+                            font-size: 13px;
+                        }
+                    }
+                    p {
+                        margin-left: 45px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .social-account_outer {
+                justify-content: center;
+                .social-view_account {
+                    width: 33%;
+                    margin-top: 40px;
+                    .social-media_profile {
+                        img {
+                            padding: 10px;
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    .social-profile_content {
+                        margin-left: 15px;
+                        p {
+                            font-size: 14px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .other-influencers {
+        .other-influencers_inner {
+            .inner-box_pf {
+                padding: 20px;
+                .profile-img_box {
+                    h4 {
+                        font-size: 20px;
+                    }
+                    .center-img {
+                        margin-bottom: 20px;
+                        img {
+                            width: 170px;
+                            height: 170px;
+                        }
+                    }
+                    .price-span {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+            .social-bottom {
+                padding: 15px 5px;
+                .social-profile_pf {
+                    width: 20%;
+                    &::after {
+                        width: 2px;
+                        height: 20px;
+                    }
+                    img {
+                        width: 18px;
+                        height: 18px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .music-main {
+        .category-inner {
+            .prev-arrow,
+            .next-arrow {
+                width: 40px;
+                height: 40px;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow {
+                left: -35px;
+            }
+            .next-arrow {
+                right: -35px;
+            }
+        }
+    }
+    .video-main {
+        .category-inner {
+            .prev-arrow1,
+            .next-arrow1 {
+                width: 40px;
+                height: 40px;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow1 {
+                left: -35px;
+            }
+            .next-arrow1 {
+                right: -35px;
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page End--
+    // ============================
+}
+
+@media only screen and (max-width: 768px) {
+    .section-space {
+        padding: 40px 0;
+    }
+    // -----  Header Start -----
+    .header-main {
+        width: 100%;
+        position: absolute;
+        .header-wrapper {
+            .navbar-collapse {}
+        }
+    }
+    // -----  Header End -----
+    // -----  Home banner start -----
+    .home-banner_outer {
+        margin-top: 0px;
+        .home-banner_inner {
+            padding: 130px 0 0;
+            .banner-content {
+                h1 {
+                    line-height: 32px;
+                    font-size: 20px;
+                }
+                p {
+                    margin: 10px 0;
+                    font-size: 13px;
+                    line-height: inherit;
+                }
+                .banner-get_btn {
+                    a.get_btn {
+                        width: 160px;
+                        height: 40px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Home banner End -----
+    // -----  Category section Start -----
+    .category-wrapper {
+        .category-outer {
+            .social-influencer-row {
+                .social-influencer-col {
+                    width: 33%;
+                    .social-inner {
+                        .social-img {
+                            width: 90px;
+                            height: 90px;
+                        }
+                    }
+                }
+            }
+            .category-content {
+                padding: 10px 0 0;
+                .about-question {
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    // -----  Category section End -----
+    // -----  Top Influencers section start -----
+    .top-influencers-wrapper {
+        margin-top: 0px;
+        padding-bottom: 100px;
+        .top-influencers_outer {
+            .top-influencers_inner {
+                padding-bottom: 20px;
+                .slide-item {
+                    padding: 10px;
+                    a {
+                        font-size: 18px;
+                        img {
+                            height: 75px;
+                        }
+                    }
+                }
+                .left-arrow,
+                .right-arrow {
+                    top: 100%;
+                }
+                .left-arrow {
+                    left: 35%;
+                }
+                .right-arrow {
+                    right: 35%;
+                }
+            }
+        }
+    }
+    // -----  Top Influencers section End -----
+    // -----  Testimonial section Start -----
+    .testimonial-wrapper {
+        padding: 40px 0 200px;
+        .common-heading {}
+        .testimonial-inner {
+            .testimonial-content {
+                padding: 45px;
+                p {
+                    padding-left: 0px;
+                    font-size: 14px;
+                    line-height: 22px;
+                    &.name {}
+                }
+                .form1 {
+                    top: -45px;
+                    left: -40px;
+                }
+                .form2 {}
+            }
+            .prev-arrow {}
+            .next-arrow {
+                left: 20%;
+            }
+        }
+    }
+    // -----   Testimonial section End  -----
+    // -----  Footer start -----
+    .footer-main {
+        .footer-outer {
+            .foot-inner {
+                .foot-logo {
+                    text-align: left;
+                    img {
+                        width: 150px;
+                    }
+                }
+                .foot-nav {
+                    ul.footer-ul {
+                        display: block;
+                    }
+                }
+            }
+        }
+        .hire-main {
+            .hire-outer {
+                padding: 15px;
+                .hire-inner {
+                    .hire-text {
+                        p {
+                            font-size: 18px;
+                        }
+                    }
+                    .hire-btn {
+                        justify-content: left;
+                        a {
+                            margin-left: unset;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // -----  Footer End -----
+    // ============================
+    // --  Agencies Page start--
+    // ============================
+    .agencies-main {
+        .agencies-outer {
+            .agencies-inner {
+                .agencies-box {
+                    display: block;
+                    .agencies-logo {
+                        img {
+                            margin-bottom: 15px;
+                        }
+                    }
+                    .agencies-detail {
+                        margin: 0px 0px 0px 10px;
+                        h3 {
+                            color: #fff;
+                            font-size: 18px;
+                            margin-bottom: 8px;
+                        }
+                        p {
+                            font-size: 14px;
+                            line-height: 25px;
+                            margin-bottom: 5px;
+                        }
+                        a.view-more_link {
+                            font-size: 12px;
+                            i {
+                                font-size: 11px;
+                            }
+                        }
+                        .min-span {
+                            font-size: 14px;
+                            margin-right: 20px;
+                            i {
+                                margin-right: 3px;
+                            }
+                        }
+                    }
+                    .price-view {
+                        text-align: left;
+                        p {
+                            margin: 15px auto;
+                        }
+                        .view-price_btn {
+                            a {
+                                margin: 20px 0 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Agencies Page End--
+    // ============================
+    // ============================
+    // --  Agencies Page End--
+    // ============================
+    // ============================
+    // --  Active Jobs  Page Start--
+    // ============================
+    .agencies-main {
+        .activejob-outer {
+            .activejob-inner {
+                .activejob-box {
+                    .agencies-logo img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                    .agencies-detail {
+                        .status-details {
+                            .min-span {
+                                margin-right: 30px;
+                                .active-social_link a {
+                                    margin: 0px 0px 0px 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Active Jobs Page End--
+    // ============================
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .profile-banner {
+        height: 230px;
+    }
+    .profile-outer {
+        .profile-inner {
+            padding-top: 30px;
+            padding-bottom: 80px;
+            .profile-detail {
+                display: block;
+                .profile-img {
+                    img {
+                        margin-top: -150px;
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+                .profile-content {
+                    margin-left: 0px;
+                    .profile-inline {
+                        margin: 0px 0 5px;
+                        .flag-img {
+                            margin-right: 10px;
+                        }
+                        h4 {
+                            font-size: 20px;
+                        }
+                        .review-star {
+                            margin-left: 30px;
+                            font-weight: 500;
+                            font-size: 13px;
+                        }
+                    }
+                    p {
+                        margin-left: 45px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .social-account_outer {
+                justify-content: start;
+                .social-view_account {
+                    width: 50%;
+                    margin-top: 50px;
+                    .social-media_profile {
+                        img {
+                            padding: 10px;
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    .social-profile_content {
+                        margin-left: 15px;
+                        p {
+                            font-size: 14px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .hire-outer {
+                justify-content: center;
+                &.mobile-hire_btn {
+                    display: block;
+                    margin-left: auto;
+                }
+                &.desktop-hire_btn {
+                    .convo-link {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .other-influencers {
+        .other-influencers_inner {
+            .inner-box_pf {
+                padding: 20px;
+                .profile-img_box {
+                    h4 {
+                        font-size: 20px;
+                    }
+                    .center-img {
+                        margin-bottom: 20px;
+                        img {
+                            width: 170px;
+                            height: 170px;
+                        }
+                    }
+                    .price-span {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+            .social-bottom {
+                padding: 15px 5px;
+                .social-profile_pf {
+                    width: 20%;
+                    &::after {
+                        width: 2px;
+                        height: 20px;
+                    }
+                    img {
+                        width: 18px;
+                        height: 18px;
+                    }
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+    .music-main {
+        .category-inner {
+            .music-slick {
+                padding-bottom: 50px;
+            }
+            .prev-arrow,
+            .next-arrow {
+                width: 40px;
+                height: 40px;
+                top: 100%;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow {
+                left: 40%;
+            }
+            .next-arrow {
+                right: 40%;
+            }
+        }
+    }
+    .video-main {
+        .category-inner {
+            .video-slick {
+                padding-bottom: 50px;
+            }
+            .prev-arrow1,
+            .next-arrow1 {
+                width: 40px;
+                height: 40px;
+                top: 100%;
+                i {
+                    font-size: 20px;
+                }
+            }
+            .prev-arrow1 {
+                left: 40%;
+            }
+            .next-arrow1 {
+                right: 40%;
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page End--
+    // ============================
+    // ============================
+    // -- Login Page Start--
+    // ============================
+    .login-wrapper {
+        .login-outer {
+            width: 515px;
+            .login-inner {
+                padding: 40px 50px 30px;
+            }
+        }
+    }
+    // ============================
+    // -- Login Page End--
+    // ============================
+}
+
+@media only screen and (max-width: 575px) {
+    // -----  Top Influencers section start -----
+    .top-influencers-wrapper {
+        .top-influencers_outer {
+            .top-influencers_inner {
+                .left-arrow {
+                    left: 25%;
+                }
+                .right-arrow {
+                    right: 25%;
+                }
+            }
+        }
+    }
+    // -----  Top Influencers section End -----
+    // -----  Testimonial section Start -----
+    .testimonial-wrapper {
+        padding: 40px 0 200px;
+        .common-heading {}
+        .testimonial-inner {
+            .prev-arrow {}
+            .next-arrow {
+                left: 25%;
+            }
+        }
+    }
+    // -----   Testimonial section End  -----
+    // ============================
+    // --  Campaign Page start--
+    // ============================
+    .campaign-outer {
+        .campaign-head_outer {
+            display: block;
+            .common-heading.campaign-heading {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .create-campaign {
+                margin-bottom: 10px;
+                text-align: center;
+            }
+        }
+        .campaign-inner {
+            .company-box {
+                padding: 10px;
+                margin: 12px 0;
+                .company-logo {
+                    img {
+                        border-radius: 4px;
+                        width: 80px;
+                        height: 80px;
+                        object-fit: cover;
+                    }
+                }
+                .company-detail {
+                    margin-left: 10px;
+                    h3 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                    p.status {
+                        margin-bottom: 3px;
+                    }
+                    a.view-more_link {
+                        i {}
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // --  Campaign Page End--
+    // ============================
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    .profile-banner {
+        height: 230px;
+    }
+    .profile-outer {
+        .profile-inner {
+            padding-top: 30px;
+            padding-bottom: 80px;
+            .profile-detail {
+                display: block;
+                .profile-img {
+                    img {
+                        margin-top: -150px;
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+                .profile-content {
+                    .skin-txt_m {
+                        display: block;
+                    }
+                    .skin-txt_d {
+                        display: none;
+                    }
+                    margin-left: 0px;
+                    .profile-inline {
+                        display: block;
+                        margin: 0px 0 5px;
+                        .flag-img {
+                            margin-right: 10px;
+                        }
+                        h4 {
+                            display: inline-block;
+                            font-size: 20px;
+                        }
+                        .review-star {
+                            display: block;
+                            margin: 15px 0px;
+                        }
+                    }
+                    p {
+                        margin-left: 0px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .social-account_outer {
+                justify-content: start;
+                .social-view_account {
+                    display: block;
+                    width: 50%;
+                    margin-top: 50px;
+                    .social-media_profile {
+                        img {
+                            padding: 10px;
+                            width: 70px;
+                            height: 70px;
+                        }
+                    }
+                    .social-profile_content {
+                        margin: 15px 0 0px;
+                        p {
+                            font-size: 14px;
+                        }
+                        a {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+            .hire-outer {
+                justify-content: start;
+                &.mobile-hire_btn {
+                    display: none;
+                    margin-left: auto;
+                }
+                &.desktop-hire_btn {
+                    .convo-link {
+                        display: block;
+                    }
+                }
+            }
+        }
+    }
+    // ============================
+    // -- View Profile Page Start--
+    // ============================
+    // ============================
+    // -- Login Page Start--
+    // ============================
+    .login-wrapper {
+        .login-outer {
+            width: 100%;
+            .login-inner {
+                padding: 25px 30px 20px;
+                .form-main {
+                    margin-top: 60px;
+                    .form-out_c {
+                        margin-bottom: 20px;
+                    }
+                }
+                .social-login_outer {
+                    a {
+                        img {
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                }
+            }
+            .for-signup_outer {
+                margin: 20px;
+                padding: 15px 0px;
+                .signup-btn {
+                    width: 130px;
+                }
+                .no-account_link {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+    // ============================
+    // -- Login Page End--
+    // ============================
+}

@@ -1,0 +1,95 @@
+
+.has-error{
+	display: block;
+}
+
+.icon_dashboard>span{
+	display: inline-block !important;
+}
+span.count_dashborad {
+    display: inline-block;
+    float: right;
+    height: 30px;
+    padding: 0px 10px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+span.users{
+    background-color: rgb(247 226 183);
+    color: #FFA800 !important;
+    border: 1px solid #FFA800;
+}
+span.influencers {
+    background-color: rgb(187 217 247);
+    color: #3b99ff !important;
+    border: 1px solid #3b99ff;
+}
+span.requests{
+    background-color: rgb(253 193 199);
+    color: #f64e60 !important;
+    border: 1px solid #f64e60;
+}
+span.bugs{
+    background-color: rgb(166 245 241);
+    color: #61d3c7 !important;
+    border: 1px solid #61d3c7;
+}
+
+.heading_dashboard {
+    display: block;
+}
+
+#kt_brand, #kt_login {
+    margin-top: 15px;
+}
+#kt_brand a img{
+    width: 100%;
+}
+
+#kt_brand a img, #kt_login  a img{
+    background: #fff;
+    padding: 13px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.ck-editor__editable_inline {
+    width:100%;
+}
+.fv-plugins-message-container>div {
+    display: none;
+}
+.fv-plugins-message-container>div:last-child {
+    display: block;
+}
+.datepicker tbody tr > td.day {
+    color: #393b44;
+}
+
+.datepicker tbody tr > td.disabled.day {
+    color: #7E8299;
+}
+.view_password{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a{
+    margin-left: 10px;
+}
+.social-links a i {
+    font-size: 20px;
+}
+#social_platforms_data_listing .badge {
+    margin: 2px;
+}
+#manage_category_listing img {
+    background-color: #1a9fe2;
+}
+.select2-container--default .select2-results__option .select2-results__option {
+    padding: 8px 30px;
+}

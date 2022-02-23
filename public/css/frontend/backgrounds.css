@@ -1,0 +1,135 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Light.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-ExtraLight.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'AvenirBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AvenirBold'), url('../../fonts/AvenirBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'AvenirLight';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AvenirLight'), url('../../fonts/AvenirLight.woff') format('woff');
+}
+@font-face {
+  font-family: 'AvenirMedium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AvenirMedium'), url('../../fonts/AvenirMedium.woff') format('woff');
+}
+@font-face {
+  font-family: 'AvenirSemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('AvenirSemiBold'), url('../../fonts/AvenirSemiBold.woff') format('woff');
+}
+
+.header-main.common-header {
+  background-image: url(../../images/home-banner.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.home-banner_outer {
+  background-color: #490d40;
+  background: url(../../images/home-banner.jpg) no-repeat center center;
+  background-size: cover;
+}
+.common-heading h2::after {
+  background-image: url(../../images/heading-border.png);
+  background-position: center;
+  background-size: 100%;
+}
+.category-wrapper .category-outer .category-content .about-question h3::after {
+  background-image: url(../../images/heading-border.png);
+  background-position: center;
+  background-size: 100%;
+}
+.profile-banner {
+  background-image: url(../../images/dodge.jpg);
+  background-position: 100% -75px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.select-arrow_span:after{ 
+  background-image: url(../../images/down-arrow-grey.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.campaign-discription{
+    color: #fff;
+    font-size: 14px;
+    word-spacing: 3px;
+    line-height: 24px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+.profile-banner.browse-banner {
+    background-image: url(../../images/browse-banner.jpg) !important;
+    background-position: 100% 100% !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.category-select .select-arrow_span::after {
+    background: url(../../images/down-arrow-blue.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#mydocumentdropzone img {
+  width: 100%;
+  height: 100%;
+}
+
+.flag-img {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+.choose-file img {
+    width: 100%;
+}
+.swal2-top-end .swal2-content {
+  display: none;
+}
